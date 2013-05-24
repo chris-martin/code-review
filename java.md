@@ -40,3 +40,4 @@ elided using the diamond syntax?
 > In Java 7, you can use the [diamond syntax]
   (http://docs.oracle.com/javase/7/docs/technotes/guides/language/type-inference-generic-instance-creation.html)
   to elide some generic type information that the compiler can infer.
+  So this could be shortened to __________________
