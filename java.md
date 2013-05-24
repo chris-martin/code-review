@@ -2,10 +2,12 @@
 
 ## Nullable
 
-Are there nullable parameters or return values that are missing the `@Nullable` annotation?
+Are there nullable **return values** that are missing the `@Nullable` annotation?
 
 > Please add the `javax.annotation.Nullable` annotation to this method to indicate that
   the return type may be `null`.
+
+Are there nullable **parameters** or return values that are missing the `@Nullable` annotation?
 
 > Please add the `javax.annotation.Nullable` annotation to this parameter to indicate
   that `null` values are accepted.
