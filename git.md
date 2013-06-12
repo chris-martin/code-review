@@ -2,7 +2,7 @@
 
 ## Line wrapping
 
-Does the commit message have lines exceedig 72 characters in length?
+Does the commit message have lines exceeding 72 characters in length?
 
 > Use [hard line wrapping](http://stopwritingramblingcommitmessages.com/) in your commit messages.
   [The maximum line length should be 72 characters]
