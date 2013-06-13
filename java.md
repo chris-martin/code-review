@@ -32,6 +32,12 @@ Does a method javadoc start with "This method ..."?
   "Gets the label of this button" is preferred to
   "This method gets the label of this button."
 
+Javadoc doesn't start with a well-formed summary sentence?
+
+> [How to Write Doc Comments for the Javadoc Tool]
+  (http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#descriptions):
+  The first javadoc sentence should end with a period.
+
 ## Java 7 diamond
 
 Does code at the Java 7 language level include redundant type information that could be
