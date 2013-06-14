@@ -10,3 +10,4 @@ Does the commit message have **long lines** (exceeding 72 characters per line)?
   unless there is some reason it can't be.
   Vim will automatically insert line breaks as you type if you use it as your commit message editor,
   which you can configure by running `git config --global core.editor "vim"`.
+  To fix this commit, you can amend it, and when the commit message opens in Vim, type "`ggVGgq`".
