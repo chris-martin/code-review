@@ -28,8 +28,9 @@ Does the diff add another positional argument to a function that already has sev
 > be something generic like `params`, `options`, or `config`.
 >
 > Make sure the documentation includes a list of all of the properties that the config
-> object may have. There is no particular convention on how to do this, but include
-> all of the same information you would if you were documenting function arguments.
+> object may have. There is no particular convention on how to format this documentation,
+> but include all of the same information you would if you were documenting function
+> arguments.
 >
 > For optional parameters, use a value of `undefined` rather than `null`, so the caller
 > can just entirely omit any parameters it does not care to specify.
