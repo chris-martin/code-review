@@ -1,5 +1,18 @@
 # JavaScript code review checklist
 
+## `==`
+
+Is `==` or `!=` used to compare with `null` or `undefined`?
+
+> Don't use `==` or `!=` to compare with `null` or `undefined`.
+  It's misleading because `null == undefined` but `null !== undefined`.
+  There are very few reasons to use `==` and `!=` in JavaScript.
+  If you need to check whether something is `null`, use `===` or `!==`.
+
+```
+if (result && Integer.parseInt(result.getGroup(1)) >= 8) {
+```
+
 ## High arity
 
 Is there confusion arising from high function arity?
