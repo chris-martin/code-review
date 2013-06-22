@@ -28,7 +28,7 @@ Does the diff add another positional argument to a function that already has sev
   Let's make it better instead. This function should have a single argument, which is
   an object that has all of these arguments as properties.
 
-#### Additional commits on named arguments
+#### Additional comments on named arguments
 
 > Some benefits of this approach:
 > 
