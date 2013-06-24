@@ -1,6 +1,6 @@
 # JavaScript code review checklist
 
-## `==`
+## Equality operators
 
 #### Use `===` to compare with `null` or `undefined`
 
