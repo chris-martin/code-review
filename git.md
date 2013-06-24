@@ -16,11 +16,8 @@ Use [hard line wrapping](http://stopwritingramblingcommitmessages.com/) in your 
 
 * Check out this branch.
 * Do an interactive rebase: `git rebase -i HEAD^^`
-* Git opens the editor to ask what you want to do with these two commits. 
-  On the second line, replace `pick` with `squash`.
+* Git opens the editor to ask what you want to do with these two commits. On the second line, replace `pick` with `squash`.
 * Save/quit the editor.
-* Git opens the editor again to prompt you for the commit message for the 
-  new squashed commit. It conveniently starts you with the messages for all
-  of the commits being squashed. Combine them into one message.
+* Git opens the editor again to prompt you for the commit message for the new squashed commit. It conveniently starts you with the messages for all of the commits being squashed. Combine them into one message.
 * Push with the `force` flag to rewrite history: `git push --force`
 * Stash will update the pull request (although it won't update until you reopen it).
