@@ -8,6 +8,8 @@ Don't use `==` or `!=` to compare with `null` or `undefined`. It's misleading be
 
 #### Use `===` to compare strings
 
+...
+
 ## High arity
 
 #### Keep arity low
