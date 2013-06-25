@@ -1,8 +1,12 @@
 # Git (and Stash) code review checklist
 
-## Line wrapping
+## No line wrapping
 
 Use [hard line wrapping](http://stopwritingramblingcommitmessages.com/) in your commit messages. [The maximum line length should be 72 characters](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) unless there is some reason it can't be. Vim will automatically insert line breaks as you type if you use it as your commit message editor, which you can configure by running `git config --global core.editor "vim"`. To fix this commit, you can amend it, and when the commit message opens in Vim, use the command "`gq`" on each line that is too long.
+
+## Wrapped summary line
+
+Don't wrap the commit message summary line. The second line of the commit message should always be blank. If it's too long, then write a shorter summary instead, and move the details into the body of the commit message.
 
 ## Are there more commits than there ought to be?
 
