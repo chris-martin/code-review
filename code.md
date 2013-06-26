@@ -1,5 +1,13 @@
 # Code review checklist (for all languages)
 
+## Comments
+
+ [A good philosophy](http://agileinaflash.blogspot.com/2009/04/rules-for-commenting.html):
+
+* Comments provide information that is not expressible in code.
+* Comments are to be deleted when they are obviated.
+* We should always strive to obviate comments.
+
 ## Boolean parameters
 
 #### One boolean parameter
