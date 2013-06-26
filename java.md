@@ -36,6 +36,15 @@ In Java 7, you can use the [diamond syntax](http://docs.oracle.com/javase/7/docs
 
 The number of arguments to this function makes the code hard to read, and it makes it easy to make mistakes when invoking the function. When you have functions like this that accept many arguments, it's a good idea to introduce a new type that has a field for each argument.
 
+The class can be very minimal:
+
+```
+public final class _____ {
+    public ______ _____;
+    public ______ _____;
+}
+```
+
 Some benefits of this approach:
 
 * You can explicitly see what each argument means at the call site (because you're effectively using named parameters).
