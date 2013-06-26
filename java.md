@@ -31,3 +31,12 @@ The first javadoc sentence should end with a period. ([How to Write Doc Comments
 #### Use diamond syntax
 
 In Java 7, you can use the [diamond syntax](http://docs.oracle.com/javase/7/docs/technotes/guides/language/type-inference-generic-instance-creation.html) to elide some generic type information that the compiler can infer. So this could be shortened to __________________.
+
+## Introducing a type to reduce arity
+
+The number of arguments to this function makes the code hard to read, and it makes it easy to make mistakes when invoking the function. When you have functions like this that accept many arguments, it's a good idea to introduce a new type that has a field for each argument.
+
+Some benefits of this approach:
+
+* You can explicitly see what each argument means at the call site (because you're effectively using named parameters).
+* The class can specify default values for its fields, so callers can simply omit values they don't care to specify, rather than passing `null` values or calling overloaded methods.
