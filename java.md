@@ -50,3 +50,7 @@ Some benefits of this approach:
 * You can explicitly see what each argument means at the call site (because you're effectively using named parameters).
 * The class can specify default values for its fields, so callers can simply omit values they don't care to specify. You won't have to pass `null` values or use overloaded methods that accept different subsets of the parameters.
 * If these parameters have to be passed along through a series of method calls, you'll only have to pass a single parameter.
+
+## Replacing `{0}` in strings
+
+Write `java.text.MessageFormat.format(a, b)` instead of `a.replace("{0}", b)`.
