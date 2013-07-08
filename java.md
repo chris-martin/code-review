@@ -54,3 +54,8 @@ Some benefits of this approach:
 ## Replacing `{0}` in strings
 
 Write `java.text.MessageFormat.format(a, b)` instead of `a.replace("{0}", b)`.
+
+## `<code>` in javadoc
+
+The `{@code x}` syntax [introduced in Java 5](https://blogs.oracle.com/darcy/entry/javadoc_tip_code_and_literal) is preferred to `<code>x</code>`.
+
