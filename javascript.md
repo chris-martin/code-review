@@ -4,7 +4,10 @@
 
 #### Use `===` to compare with `null` or `undefined`
 
-Don't use `==` or `!=` to compare with `null` or `undefined`. It's misleading because `null == undefined` but `null !== undefined`. There are very few reasons to use `==` and `!=` in JavaScript. If you need to check whether something is specifically `null`, write `x !== null`. Otherwise just write `!x`.
+[Do not use `==` or `!=`](http://www.jslint.com/lint.html):
+
+> The == and != operators do type coercion before comparing. This is bad because it causes ' \t\r\n' == 0 to be true. This can mask type errors. JSLint cannot reliably determine if == is being used correctly, so it is best to not use == and != at all and to always use the more reliable === and !== operators instead.
+> If you only care that a value is truthy or falsy, then use the short form. Instead of `(foo != 0)` just say `(foo)` and instead of `(foo == 0)` say `(!foo)`.
 
 #### Use `===` to compare strings
 
