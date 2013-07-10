@@ -4,7 +4,7 @@
 
 #### Use `===` to compare with `null` or `undefined`
 
-Don't use `==` or `!=` to compare with `null` or `undefined`. It's misleading because `null == undefined` but `null !== undefined`. There are very few reasons to use `==` and `!=` in JavaScript. If you need to check whether something is `null`, use `===` or `!==`.
+Don't use `==` or `!=` to compare with `null` or `undefined`. It's misleading because `null == undefined` but `null !== undefined`. There are very few reasons to use `==` and `!=` in JavaScript. If you need to check whether something is specifically `null`, use `=== null`.
 
 #### Use `===` to compare strings
 
