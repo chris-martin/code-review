@@ -4,17 +4,17 @@
 
 #### Nullable *return values* need a `@Nullable` annotation
 
-Please add the `javax.annotation.Nullable` annotation to this method to indicate that the return value may be `null`.
+Add the `javax.annotation.Nullable` annotation to this method to indicate that the return value may be `null`.
 
 #### Nullable *parameters* need a `@Nullable` annotation
 
-Please add the `javax.annotation.Nullable` annotation to this parameter to indicate that `null` values are accepted.
+Add the `javax.annotation.Nullable` annotation to this parameter to indicate that `null` values are accepted.
 
 ## Related methods
 
 #### Document the relation between similar methods
 
-Please add a note to this method that mentions the other, and vice versa, (with a mention in both places of how they differ), to enhance the discoverability of this API. You can link them with `@see #methodName`.
+Add a note to this method that mentions the other, and vice versa, (with a mention in both places of how they differ), to enhance the discoverability of this API. You can link them with `@see #methodName`.
 
 ## Javadoc summary sentence
 
