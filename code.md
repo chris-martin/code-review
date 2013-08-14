@@ -10,6 +10,8 @@
 
 ## Boolean parameters
 
+http://ariya.ofilabs.com/2011/08/hall-of-api-shame-boolean-trap.html
+
 #### One boolean parameter
 
 Boolean method parameters are generally a bad idea, because it's hard to figure out what's going on when you're looking at the call site.
