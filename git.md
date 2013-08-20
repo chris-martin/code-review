@@ -14,7 +14,7 @@ Don't wrap the commit message summary line. The second line of the commit messag
 
 ### Are the extra commits changes arising from code review?
 
-...
+In the situation wherein you have a single-commit pull request and you're make changes in response to code review comments, usually you should modify that commit instead of adding another one. The first commit is not valuable to keep in the repository, and it adds needless clutter to the history. To edit your most recent commit instead of adding a new commit, use `git commit --amend` instead of `git commit`. After you do this, you need to force push because you're rewriting history on the remote: `git push --force`.
 
 ### How to squash (two commits into one)
 
