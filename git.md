@@ -1,6 +1,6 @@
 # Git (and Stash) code review checklist
 
-Follow [this convention](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for commit messages: The first line should be a very brief summary, the second line should be blank, and the rest of the message should be hard-wrapped at 72 characters.
+Follow [this convention](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for commit messages: The first line should be a very brief summary (try to limit it to 50 characters), the second line should be blank, and the rest of the message should be hard-wrapped at 72 characters.
 
 ## No line wrapping
 
