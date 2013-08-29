@@ -1,5 +1,7 @@
 # Code review checklist (for all languages)
 
+"The supreme art of programming is to solve the problem without code."
+
 ## Comments
 
  [A good philosophy](http://agileinaflash.blogspot.com/2009/04/rules-for-commenting.html):
