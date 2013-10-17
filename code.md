@@ -4,7 +4,9 @@
 
 ## Comments
 
- [A good philosophy](http://agileinaflash.blogspot.com/2009/04/rules-for-commenting.html):
+[The code documentation fallacy](http://voices.canonical.com/jussi.pakkanen/2012/09/25/the-code-documentation-fallacy/)
+
+[A good philosophy](http://agileinaflash.blogspot.com/2009/04/rules-for-commenting.html):
 
 * Comments provide information that is not expressible in code.
 * Comments are to be deleted when they are obviated.
