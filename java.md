@@ -20,7 +20,7 @@ Add a note to this method that mentions the other, and vice versa, (with a menti
 
 #### Method javadoc starting with "This method ..."
 
-It's okay to use phrases instead of complete sentences, in the interests of brevity. This holds especially in the initial summary and in @param tag descriptions. A method implements an operation, so it usually starts with a verb phrase."Gets the label of this button" is preferred to "This method gets the label of this button." ([How to Write Doc Comments for the Javadoc Tool](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#descriptions))
+It's okay to use phrases instead of complete sentences, in the interests of brevity. This holds especially in the initial summary and in @param tag descriptions. A method implements an operation, so it usually starts with a verb phrase. "Gets the label of this button" is preferred to "This method gets the label of this button." ([How to Write Doc Comments for the Javadoc Tool](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#descriptions))
 
 #### Javadoc needs a well-formed summary sentence
 
